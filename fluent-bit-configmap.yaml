@@ -61,8 +61,8 @@ data:
     [OUTPUT]
         Name          gelf
         Match         *
-        Host          192.168.1.18
-        Port          12201
+        Host          graylog.zyfra.com
+        Port          12222
         Mode          tcp
         Gelf_Short_Message_Key log
 
